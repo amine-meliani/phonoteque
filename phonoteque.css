@@ -1,0 +1,176 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+
+
+.bodykeany{
+	background-image: url("ny.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: white;
+}
+
+
+.ulheader{
+
+display: flex;
+justify-content: space-around;
+background-color: red;
+
+}
+
+
+
+.rap1{
+	margin-top: 100px;
+		display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.divk1{
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.textrap {
+
+	border-radius: 20px;
+	padding: 20px;
+	text-align: center;
+	width: 750px;
+	border:2px solid white;
+}
+
+.legroupe{
+	background-color: rgba(50, 50, 50, .6);
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.imgsugarhill{
+	width: 320px;
+	height: 240px;
+
+}
+
+.legroupe p{
+	display: flex;
+	align-items: center;
+justify-content: center;
+	width: 500px;
+	margin-left: 30px;
+	margin-right: 3Opx;
+
+}
+
+.rapamericain{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+
+
+
+
+.containerk{
+	margin-bottom: 50px;
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-around;
+	background-color: transparent;
+}
+
+.rap3{
+
+	width: 650px;
+	background-color: rgba(50, 50, 50, .6);
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.rap2{
+
+	width: 650px;
+	background-color: rgba(50, 50, 50, .6);
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+
+.audio1k{
+
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+
+
+.ulfooter{
+
+display: flex;
+justify-content: space-around;
+background-color: red;
+
+}
+
+
+
+
+.textrap{
+  position: relative;
+  font-family: sans-serif;
+  font-size: 15px;
+  letter-spacing: 3px;
+  overflow: hidden;
+  background: linear-gradient(white, whitesmoke,lightgrey);
+  background-repeat: no-repeat;
+  animation: animate  5s linear ;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+
+
+  0% {
+  	background-size:0%;
+    background-position: -500%;
+  }
+
+  100% {
+  	background-size: 100%;
+    background-position: 500%;
+  }
+}
+
+.photok{
+	margin-right: 20px;
+	justify-content: flex-start;
+	width: 200px;
+	height: 160px;
+	border-radius: 10px;
+	border: 2px white solid;
+	box-shadow: 3px 1.5px 1.5px darkgray;
+
+}
+
+
+.photok:hover{
+
+	box-shadow: 6px 3px 3px darkgray;
+}
+
+
+.audio{
+	width: 200px;
+}
