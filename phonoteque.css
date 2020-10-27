@@ -2,19 +2,35 @@
 
 
 .bodykeany{
-	background-image: url("ny.jpg");
+	background-image: url("ressources-phonotheque2/ny.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 	color: white;
 }
+.ulheader, li a{
+text-decoration: none;
+	color: whitesmoke;
+
+
+}
+.ulheader li {
+	
+
+	list-style-type: none;
+	
+	
+}
 
 
 .ulheader{
-
+	text-decoration-style: none;
+	color: whitesmoke;
+	padding-top: 20px;
+	padding-bottom: 20px;
 display: flex;
 justify-content: space-around;
-background-color: red;
+background-color: rgba(50, 50, 50, .6);
 
 }
 
@@ -35,8 +51,12 @@ background-color: red;
 	text-align: center;
 }
 
-.textrap {
+.textrap2{
+	text-align: center;
+	font-family: 'Hind', sans-serif;
+}
 
+.textrap {
 	border-radius: 20px;
 	padding: 20px;
 	text-align: center;
@@ -109,21 +129,22 @@ justify-content: center;
 
 	margin-top: 20px;
 	margin-bottom: 20px;
-	display: flex;
-	justify-content: space-evenly;
+	font-family: 'Yatra One', cursive; 
+	font-size: 16px;
+
 }
 
 
 
 .ulfooter{
+		padding-top: 20px;
+	padding-bottom: 20px;
 
 display: flex;
 justify-content: space-around;
-background-color: red;
+background-color: rgba(50, 50, 50, .6);
 
 }
-
-
 
 
 .textrap{
@@ -134,7 +155,7 @@ background-color: red;
   overflow: hidden;
   background: linear-gradient(white, whitesmoke,lightgrey);
   background-repeat: no-repeat;
-  animation: animate  5s linear ;
+  animation: animate  4s linear ;
   -webkit-background-clip: text;
   -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
@@ -143,34 +164,135 @@ background-color: red;
 
 
   0% {
+
   	background-size:0%;
     background-position: -500%;
   }
 
   100% {
   	background-size: 100%;
-    background-position: 500%;
+    background-position: 680%;
   }
 }
 
 .photok{
-	margin-right: 20px;
-	justify-content: flex-start;
-	width: 200px;
-	height: 160px;
-	border-radius: 10px;
-	border: 2px white solid;
+	margin-bottom: 50px;
+	margin-top: 20px;
+	justify-content: center;
+	width: 300px;
+	height: 300px;
+	border-radius: 100%;
 	box-shadow: 3px 1.5px 1.5px darkgray;
+}
+.textek{
+	margin-bottom: 50px;
+}
+.textk h3{
+	display: flex;
+	justify-content: center;
+	font-size: 28px;
 
 }
 
+.textk h4{
+	display: flex;
+	justify-content: center;
+	font-size: 13px;
 
-.photok:hover{
+}
 
-	box-shadow: 6px 3px 3px darkgray;
+.titre1k{
+	font-family: 'Kaushan Script', cursive;
+	font-size: 50px;
+	letter-spacing: 10px;
+}
+
+.titre2{
+	font-family: 'Yatra One', cursive; 
+	font-size: 25px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	
+}
+
+.textk2{
+	font-family: 'Hind', sans-serif;
+	font-size: 15px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	background:rgba(255, 255, 255, 0.05);
+}
+
+
+
+
+.boutonk{
+	margin-bottom: 50px;
+}
+
+
+.containerplayerk{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.playerk{
+	display: flex;
+	justify-content: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-radius: 20px;	
+	background:rgba(250, 250, 250, .1);
+	border: solid 0.1px lightgrey;
+
 }
 
 
 .audio{
-	width: 200px;
+	display: flex;
+	justify-content: center;
+	width: 300px;
 }
+
+
+.rapfr{
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.rapmarseillais{
+	border-radius: 30px;
+	background:rgba(105, 105, 105, .6);
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	justify-content: center;
+	width: 700px;
+}
+
+.rapfrarticle{
+
+	text-align: center;
+}
+
+.rapfrarticle h3{
+	margin-top: 60px;
+	font-family: 'Yatra One', cursive;
+	margin-bottom: 20px;
+
+}
+.rapfrarticle p{
+	padding: 30px;
+}
+
+.rapfr{
+	margin-bottom: 50px;
+	background:rgba(255, 255, 255, 0.05);
+}
+
