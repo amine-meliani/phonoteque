@@ -1,16 +1,13 @@
-*{padding: 0; margin: 0; box-sizing: border-box;}
+/* AMINE */
 
-.bodykeany{
-	background-image: url("ressources-phonotheque2/ny.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-	color: white;
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
 
-
-.ulheader{
-	text-decoration-style: none;
+.ulheader {
+	text-decoration: none;
 	color: whitesmoke;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -23,35 +20,277 @@
 	list-style-type: none;
 }
 
-.ulheader, li a{
-text-decoration: none;
+.ulheader, li a {
+	text-decoration: none;
 	color: whitesmoke;
 }
 
-.photoyoutube{
-	margin-left: 20px;
-	width: 70px;
-	height: 50px;
-	animation: 2s linear 0s infinite blink_anim;
+.main-partierock {
+	;
 }
 
-.imagesk2{
-	margin-right: 150px;
+.rockpsychebody {
+	background-image: url("ressources-phonotheque/background-rockpsyche.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
-.imagesk1{
-	margin-left: 150px;
+.rockpsychetitre {
+	-webkit-animation: roll-in-bottom 0.6s ease-out both;
+	animation: roll-in-bottom 0.6s ease-out both;
 }
 
-.accueil{
-	background:url(https://images.pexels.com/photos/2479312/pexels-photo-2479312.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+@-webkit-keyframes .rockpsychetitre {
+	0% {
+		-webkit-transform: translateY(800px) rotate(540deg);
+		transform: translateY(800px) rotate(540deg);
+		opacity: 0;
+	}
+	100% {
+		-webkit-transform: translateY(0) rotate(0deg);
+		transform: translateY(0) rotate(0deg);
+		opacity: 1;
+	}
+}
+
+@keyframes roll-in-bottom {
+	0% {
+		-webkit-transform: translateY(800px) rotate(540deg);
+		transform: translateY(800px) rotate(540deg);
+		opacity: 0;
+	}
+	100% {
+		-webkit-transform: translateY(0) rotate(0deg);
+		transform: translateY(0) rotate(0deg);
+		opacity: 1;
+	}
+}
+
+.firstsection-rock {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.rockpsychetitre {
+	margin-top: 1%;
+	display: flex;
+	justify-content: center;
+	color: black;
+	background-color: rgba(94, 233, 1, 0.2);
+}
+
+.presentation-rock {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 1%;
+	border: solid yellow 3px;
+}
+
+.presentation-rock h2 {
+	display: flex;
+	justify-content: left;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 28px;
+	font-weight: bolder;
+	text-decoration: wavy underline;
+}
+
+.presentation-rock p {
+	text-align: center;
+	box-sizing: border-box;
+	background-color: rgba(245, 219, 255, 0.753);
+	color: rgb(0, 0, 0);
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: bold;
+	margin-top: 1%;
+}
+
+.groupes {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: 4%;
+	display: flex;
+	margin-bottom: 3%;
+}
+
+.groupes h3 {
+	margin-left: 35%;
+	width: 35%;
+	background-color: red;
+	text-align: center;
+	margin-bottom: 2%;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.groupes p {
+	text-align: center;
+	box-sizing: border-box;
+	background-color: rgba(0, 183, 255, 0.301);
+	color: rgb(10, 10, 10);
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: bold;
+	margin-top: 1%;
+}
+
+.the-doors {
+	margin-bottom: 3%;
+	box-sizing: border-box;
+	background-color: rgba(212, 127, 194, 0.349);
+}
+
+.pinkfloyd-article {
+	margin-bottom: 3%;
+	box-sizing: border-box;
+	background-color: rgba(212, 127, 194, 0.349);
+}
+
+.contenaire-a {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 3%;
+}
+
+.contenu-a {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 50%;
+}
+
+.audiocentre {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 10%;
+}
+
+.audiocentre h5 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-weight: bolder;
+	background-color: rgba(34, 185, 240, 0.568);
+	color: rgb(255, 255, 255);
+	font-size: 20px;
+}
+
+#site-thedoors {
+	margin-top: 3%;
+	text-align: center;
+	align-self: center;
+	color: red;
+	font-size: 26px;
+	font-weight: bolder;
+	background-color: yellow;
+	width: 25%;
+}
+
+#site-pinkfloyd {
+	margin-top: 3%;
+	text-align: center;
+	align-self: center;
+	color: red;
+	font-size: 26px;
+	font-weight: bolder;
+	background-color: yellow;
+	width: 28%;
+}
+
+.contenaire-a2 {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 3%;
+}
+
+.contenu-a2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 50%;
+}
+
+.images-rockpsy {
+	width: 500px;
+	height: 500px;
+	justify-self: left;
+}
+
+#logoyoutuberadiohead {
+	width: 256px;
+	height: 144px;
+}
+
+.ulfooter {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	display: flex;
+	justify-content: space-around;
+	background-color: rgba(50, 50, 50, .6);
+}
+
+/* KEANY */
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.bodykeany {
+	background-image: url("ressources-phonotheque2/ny.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 	color: white;
 }
 
-.rap1{
+.ulheader {
+	text-decoration: none;
+	color: whitesmoke;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	display: flex;
+	justify-content: space-around;
+	background-color: rgba(50, 50, 50, .6);
+}
+
+.ulheader li {
+	list-style-type: none;
+}
+
+.ulheader, li a {
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+.photoyoutube {
+	margin-left: 20px;
+	width: 70px;
+	height: 50px;
+	animation: 2s linear 0s infinite blink_anim;
+}
+
+.imagesk2 {
+	margin-right: 150px;
+}
+
+.imagesk1 {
+	margin-left: 150px;
+}
+
+.accueil {
+	background: url(https://images.pexels.com/photos/2479312/pexels-photo-2479312.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: white;
+}
+
+.rap1 {
 	margin-top: 100px;
 	display: flex;
 	justify-content: center;
@@ -59,14 +298,14 @@ text-decoration: none;
 	text-align: center;
 }
 
-.divk1{
+.divk1 {
 	margin-top: 50px;
 	display: flex;
 	justify-content: center;
 	text-align: center;
 }
 
-.textrap2{
+.textrap2 {
 	text-align: center;
 	font-family: 'Hind', sans-serif;
 }
@@ -76,38 +315,38 @@ text-decoration: none;
 	padding: 20px;
 	text-align: center;
 	width: 750px;
-	border:2px solid white;
+	border: 2px solid white;
 }
 
-.legroupe{
+.legroupe {
 	background-color: rgba(50, 50, 50, .6);
 	margin-top: 50px;
 	display: flex;
 	justify-content: space-evenly;
 }
 
-.imgsugarhill{
+.imgsugarhill {
 	width: 320px;
 	height: 240px;
 }
 
-.legroupe p{
+.legroupe p {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	width: 500px;
 	margin-left: 30px;
-	margin-right: 3Opx;
+	margin-right: 30px;
 }
 
-.rapamericain{
+.rapamericain {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
 	text-align: center;
 }
 
-.containerk{
+.containerk {
 	margin-bottom: 50px;
 	margin-top: 50px;
 	display: flex;
@@ -115,7 +354,7 @@ text-decoration: none;
 	background-color: transparent;
 }
 
-.rap3{
+.rap3 {
 	width: 650px;
 	background-color: rgba(50, 50, 50, .6);
 	display: flex;
@@ -123,7 +362,7 @@ text-decoration: none;
 	flex-direction: column;
 }
 
-.rap2{
+.rap2 {
 	width: 650px;
 	background-color: rgba(50, 50, 50, .6);
 	display: flex;
@@ -131,37 +370,37 @@ text-decoration: none;
 	flex-direction: column;
 }
 
-.rapaccueil{
+.rapaccueil {
 	margin-top: 100px;
 	margin-bottom: 100px;
-	font-family: 'Yatra One', cursive; 
+	font-family: 'Yatra One', cursive;
 	background-color: rgba(50, 50, 50, .6);
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 }
 
-.containeraccueil{
+.containeraccueil {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
-	
 }
 
-.rapaccueil h1{
+.rapaccueil h1 {
 	text-align: center;
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
-.contenuaccueil{
 
+.contenuaccueil {
 	text-align: center;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	background:rgba(245, 245, 245, 0.5);
+	background: rgba(245, 245, 245, 0.5);
 }
-.paccueil{
+
+.paccueil {
 	align-items: center;
 	justify-content: center;
 	display: flex;
@@ -170,37 +409,32 @@ text-decoration: none;
 	margin-top: 50px;
 	border-bottom-right-radius: 20px;
 	border-bottom-left-radius: 20px;
-	
 	padding: 30px;
-	background:rgba(245, 245, 245, 0.5);
-
+	background: rgba(245, 245, 245, 0.5);
 }
 
-.contenuaccueil h4{
-	font-size:20px;
-
+.contenuaccueil h4 {
+	font-size: 20px;
 }
 
-.contenuaccueil h4{
-	font-size:20px;
-	
+.contenuaccueil h4 {
+	font-size: 20px;
 }
 
-.contenuaccueil img{
+.contenuaccueil img {
 	align-self: center;
 	width: 200px;
 	height: 300px;
 }
 
-
-.audio1k{
+.audio1k {
 	margin-top: 20px;
 	margin-bottom: 20px;
-	font-family: 'Yatra One', cursive; 
+	font-family: 'Yatra One', cursive;
 	font-size: 16px;
 }
 
-.rapfrfr1{
+.rapfrfr1 {
 	margin-left: 500px;
 	margin-right: 500px;
 	margin-bottom: 100px;
@@ -210,38 +444,36 @@ text-decoration: none;
 
 .rapfrfr {
 	padding: 20px;
-	background:rgba(255, 255, 255, 0.05);
+	background: rgba(255, 255, 255, 0.05);
 	flex-direction: column;
 	display: flex;
 }
 
-.textrap{
-  position: relative;
-  font-family: sans-serif;
-  font-size: 15px;
-  letter-spacing: 3px;
-  overflow: hidden;
-  background: linear-gradient(white, whitesmoke,lightgrey);
-  background-repeat: no-repeat;
-  animation: animate  4s linear ;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+.textrap {
+	position: relative;
+	font-family: sans-serif;
+	font-size: 15px;
+	letter-spacing: 3px;
+	overflow: hidden;
+	background: linear-gradient(white, whitesmoke, lightgrey);
+	background-repeat: no-repeat;
+	animation: animate 4s linear;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
 
 @keyframes animate {
-
-  0% {
-  	background-size:0%;
-    background-position: -500%;
-  }
-
-  100% {
-  	background-size: 100%;
-    background-position: 680%;
-  }
+	0% {
+		background-size: 0%;
+		background-position: -500%;
+	}
+	100% {
+		background-size: 100%;
+		background-position: 680%;
+	}
 }
 
-.photok{
+.photok {
 	margin-bottom: 50px;
 	margin-top: 20px;
 	justify-content: center;
@@ -251,37 +483,37 @@ text-decoration: none;
 	box-shadow: 3px 1.5px 1.5px darkgray;
 }
 
-.textek{
+.textek {
 	margin-bottom: 50px;
 }
 
-.textk h3{
+.textk h3 {
 	display: flex;
 	justify-content: center;
 	font-size: 28px;
 }
 
-.textk h4{
+.textk h4 {
 	display: flex;
 	justify-content: center;
 	font-size: 13px;
 }
 
-.titre1k{
+.titre1k {
 	font-family: 'Kaushan Script', cursive;
 	font-size: 50px;
 	letter-spacing: 10px;
 }
 
-.titre2{
-	font-family: 'Yatra One', cursive; 
+.titre2 {
+	font-family: 'Yatra One', cursive;
 	font-size: 25px;
 	text-align: center;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
 
-.textk2{
+.textk2 {
 	font-family: 'Hind', sans-serif;
 	font-size: 15px;
 	border-bottom-left-radius: 15px;
@@ -289,74 +521,71 @@ text-decoration: none;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	text-align: center;
-	background:rgba(255, 255, 255, 0.05);
+	background: rgba(255, 255, 255, 0.05);
 }
 
-.boutonk{
+.boutonk {
 	display: flex;
 	margin-bottom: 50px;
 }
 
-.containerplayerk{
+.containerplayerk {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 }
 
-.playerk{
+.playerk {
 	display: flex;
 	justify-content: center;
 	padding-top: 30px;
 	padding-bottom: 30px;
-	border-radius: 20px;	
-	background:rgba(250, 250, 250, .1);
+	border-radius: 20px;
+	background: rgba(250, 250, 250, .1);
 	border: solid 0.1px lightgrey;
 }
 
-
-.audio{
+.audio {
 	display: flex;
 	justify-content: center;
 	width: 300px;
 }
 
-
-.rapfr{
+.rapfr {
 	display: flex;
 	justify-content: space-between;
-
 }
 
-.rapmarseillais{
+.rapmarseillais {
 	border-radius: 30px;
-	background:rgba(105, 105, 105, .6);
+	background: rgba(105, 105, 105, .6);
 	display: flex;
 	flex-direction: column;
-	align-items:center;
+	align-items: center;
 	justify-content: center;
 	width: 700px;
 }
 
-.rapfrarticle{
+.rapfrarticle {
 	text-align: center;
 }
 
-.rapfrarticle h3{
+.rapfrarticle h3 {
 	margin-top: 60px;
 	font-family: 'Yatra One', cursive;
 	margin-bottom: 20px;
 }
 
-.rapfrarticle p{
+.rapfrarticle p {
 	padding: 30px;
 }
 
-.rapfr{
+.rapfr {
 	margin-bottom: 50px;
-	background:rgba(255, 255, 255, 0.05);
+	background: rgba(255, 255, 255, 0.05);
 }
 
-.textk3{
+.textk3 {
 	padding: 20px;
 	font-family: 'Hind', sans-serif;
 	font-size: 15px;
@@ -368,12 +597,16 @@ text-decoration: none;
 	background-color: rgba(50, 50, 50, .6);
 }
 
-@keyframes blink_anim{
-	from
-	{opacity:1;} to {opacity:0;}
+@keyframes blink_anim {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
 }
 
-.ulfooter{
+.ulfooter {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	display: flex;
